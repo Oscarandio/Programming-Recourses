@@ -1,3 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+
+h2 {
+  margin: 24px;
+}
+
 ul {
   display: flex;
   list-style-type: none;
@@ -5,12 +21,18 @@ ul {
 }
 
 li {
-  border: 2px solid #000;
-  width: 120px;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 1px #000;
+  width: 160px;
   margin: 0 10px;
+  padding: 6px 12px;
+}
+
+li:hover {
+  background-color: #ddd;
 }
 
 a {
   text-decoration: none;
-    
+  color: #222;
 }
